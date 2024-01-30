@@ -7,28 +7,36 @@
 .cloudy{
     background-image: url('cloudy.jpeg');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .Smoke{
     background-image: url('smoke.jpeg');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .Haze{
     background-image: url('haze.jpeg');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .Sunny{
     background-image: url('sunny.jpeg');
+    height : 100vh;
+    width: 100vw;
     background-size: cover;
+
 }
 .PC{
     background-image: url('partly.jpeg');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 body {
     color: black;
     font-family: "Nanum Gothic", sans-serif;
     height: 100vh;
     font-weight: bolder;
+    background-size: cover;
 }
 main {
     display: flex;
@@ -56,10 +64,12 @@ main {
 .mc{
     background-image: url('mcloudy.jpeg');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .rainy{
     background-image: url('rainy.jpeg');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .formBtn {
     background: #22a6b3;
