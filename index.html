@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<main>
+    <form class="inputForm">
+        <input class="inputCity" type="text" placeholder="Search for a city..." />
+        <input class="formBtn" type="submit" value="Show Weather" />
+    </form>
+    <div class="result">
+        <p><span class="city"></span><span class="country"></span></p>
+        <p class="temprature"></p>
+        <p class="sky"></p>
+        <p class="min-max"></p>
+
+        <table class="weather-table">
+            <thead>
+            <tr>
+                <th>Day</th>
+                <th>Date</th>
+                <th>High</th>
+                <th>Low</th>
+                <th>Forecast</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</main>
+
+<footer>
+    <p class = "p">Designed and Coded by <a href="www.github.com" target="_blank">Hemkesh Kantawala</a></p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
